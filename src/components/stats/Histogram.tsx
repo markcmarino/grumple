@@ -7,7 +7,8 @@ type Props = {
 }
 
 export const Histogram = ({ gameStats, numberOfGuessesMade }: Props) => {
-  const winDistribution = gameStats.winDistribution
+  // const winDistribution = gameStats.winDistribution
+  const winDistribution = [10, 5, 4, 3, 3]
   const maxValue = Math.max(...winDistribution)
 
   return (

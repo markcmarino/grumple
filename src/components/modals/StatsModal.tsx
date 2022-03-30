@@ -42,7 +42,7 @@ export const StatsModal = ({
   if (gameStats.totalGames <= 0) {
     return (
       <BaseModal
-        title={STATISTICS_TITLE}
+        title={STATISTICS_TITLE[Math.floor(Math.random() * STATISTICS_TITLE.length)]}
         isOpen={isOpen}
         handleClose={handleClose}
       >
@@ -52,7 +52,7 @@ export const StatsModal = ({
   }
   return (
     <BaseModal
-      title={STATISTICS_TITLE}
+      title={STATISTICS_TITLE[Math.floor(Math.random() * STATISTICS_TITLE.length)]}
       isOpen={isOpen}
       handleClose={handleClose}
     >

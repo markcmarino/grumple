@@ -39,6 +39,7 @@ import './App.css'
 import { AlertContainer } from './components/alerts/AlertContainer'
 import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/navbar/Navbar'
+import catimage from './assets/istockphoto-1311993425-612x612.jpg'
 
 function App() {
   const prefersDarkMode = window.matchMedia(
@@ -246,6 +247,15 @@ function App() {
         setIsInfoModalOpen={setIsInfoModalOpen}
         setIsStatsModalOpen={setIsStatsModalOpen}
         setIsSettingsModalOpen={setIsSettingsModalOpen}
+      />
+      <img
+        src={catimage}
+        style={{
+          width: '10%',
+          position: 'absolute',
+          top: '20vh',
+          left: '20vw',
+        }}
       />
       <div className="pt-2 px-1 pb-8 md:max-w-7xl w-full mx-auto sm:px-6 lg:px-8 flex flex-col grow">
         <div className="pb-6 grow">
