@@ -4,6 +4,8 @@ export const WORDS = [
   'needy',
   'feeds',
   'risks',
+  'bingo',
+  'chips',
   'zjsds',
   'asdas',
 ]
