@@ -40,6 +40,7 @@ import { AlertContainer } from './components/alerts/AlertContainer'
 import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/navbar/Navbar'
 import catimage from './assets/istockphoto-1311993425-612x612.jpg'
+import grumpletitle from './assets/grumpletitle.png'
 
 function App() {
   const prefersDarkMode = window.matchMedia(
@@ -249,14 +250,13 @@ function App() {
         setIsSettingsModalOpen={setIsSettingsModalOpen}
       />
       <img
-        src={catimage}
+        src={grumpletitle}
         style={{
-          width: '10%',
           position: 'absolute',
-          top: '20vh',
-          left: '20vw',
+          align: 'center',
         }}
       />
+
       <div className="pt-2 px-1 pb-8 md:max-w-7xl w-full mx-auto sm:px-6 lg:px-8 flex flex-col grow">
         <div className="pb-6 grow">
           <Grid
