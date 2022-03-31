@@ -252,8 +252,8 @@ function App() {
       <img
         src={grumpletitle}
         style={{
-          position: 'absolute',
-          align: 'center',
+          width: '50%',
+          alignSelf: 'center',
         }}
       />
 
