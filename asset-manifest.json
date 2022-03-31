@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/grumple/static/css/main.8376a7a5.css",
-    "main.js": "/grumple/static/js/main.38de9008.js",
+    "main.css": "/grumple/static/css/main.4183d229.css",
+    "main.js": "/grumple/static/js/main.868bf817.js",
     "static/js/787.9e537eb5.chunk.js": "/grumple/static/js/787.9e537eb5.chunk.js",
     "static/media/grumpletitle.png": "/grumple/static/media/grumpletitle.246bcbe1036b4cbb7ec0.png",
     "index.html": "/grumple/index.html",
-    "main.8376a7a5.css.map": "/grumple/static/css/main.8376a7a5.css.map",
-    "main.38de9008.js.map": "/grumple/static/js/main.38de9008.js.map",
+    "main.4183d229.css.map": "/grumple/static/css/main.4183d229.css.map",
+    "main.868bf817.js.map": "/grumple/static/js/main.868bf817.js.map",
     "787.9e537eb5.chunk.js.map": "/grumple/static/js/787.9e537eb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8376a7a5.css",
-    "static/js/main.38de9008.js"
+    "static/css/main.4183d229.css",
+    "static/js/main.868bf817.js"
   ]
 }
