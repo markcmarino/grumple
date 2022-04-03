@@ -5,6 +5,7 @@ export const WORDS = [
   'feeds',
   'risks',
   'short',
+  'doubt',
   'betas',
   'taxes',
   'bingo',
