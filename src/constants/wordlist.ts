@@ -6,6 +6,7 @@ export const WORDS = [
   'risks',
   'short',
   'doubt',
+  'ouija',
   'betas',
   'taxes',
   'bingo',
