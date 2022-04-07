@@ -1,6 +1,6 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Rasputin', 'Lester', 'Hardly!', 'Vision', 'Action!', 'Sally called']
+export const WIN_MESSAGES = ['I\'m Lovin\' it! ', 'The Real Thing', 'Where\'s the Beef?', 'Got Milk?', 'Just Do IT!', 'Taste the Rainbow']
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'That\'s all you got?'
 export const WORD_NOT_FOUND_MESSAGE = 'your GRUMPLE is GRUMPLED!'
@@ -18,7 +18,7 @@ export const NOT_CONTAINED_MESSAGE = (letter: string) =>
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
 export const STATISTICS_TITLE = ['OUTCOME: You win', 'OUTCOME: You lost', 'OUTCOME: You\'re confused', 'OUTCOME: You Win in error: NO SUCCESS', 'OUTCOME: This is NOT a game', 'OUTCOME: What gives?', 'OUTCOME: Letter Tax', 'OUTCOME: Lost Ticket', 'OUTCOME: Regret']
-export const GUESS_DISTRIBUTION_TEXT = 'Revelation Bars'
+export const GUESS_DISTRIBUTION_TEXT = 'Power-AID Bars'
 export const NEW_WORD_TEXT = 'New Grumple in'
 export const SHARE_TEXT = 'Share'
 export const TOTAL_TRIES_TEXT = 'Total tries'
