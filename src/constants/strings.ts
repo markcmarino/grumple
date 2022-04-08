@@ -17,7 +17,7 @@ export const NOT_CONTAINED_MESSAGE = (letter: string) =>
   `Guess must contain ${letter}`
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
-export const STATISTICS_TITLE = ['OUTCOME: You win', 'OUTCOME: You lost', 'OUTCOME: Maybe Your BORN with It', 'OUTCOME: You Win in error: NO SUCCESS', 'OUTCOME: Your FIT is not LIT.', 'OUTCOME: Unfashionable', 'OUTCOME: Distress', 'OUTCOME: Makeover Time!']
+export const STATISTICS_TITLE = ['OUTCOME: You win', 'OUTCOME: You lost', 'OUTCOME: Maybe You\'re BORN with It', 'OUTCOME: You Win in error: NO SUCCESS', 'OUTCOME: Your FIT is not LIT', 'OUTCOME: Unfashionable', 'OUTCOME: Distress', 'OUTCOME: Makeover Time!']
 export const GUESS_DISTRIBUTION_TEXT = 'Sephora Cleansing Bars'
 export const NEW_WORD_TEXT = 'Next Vogue Grumple'
 export const SHARE_TEXT = 'Share'
