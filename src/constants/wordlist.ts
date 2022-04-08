@@ -8,7 +8,7 @@ export const WORDS = [
   'doubt',
   'ouija',
   'betas',
-  'taxes',
+  'vogue',
   'bingo',
   'chips',
   'zjsds',
