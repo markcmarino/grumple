@@ -41,6 +41,8 @@ import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/navbar/Navbar'
 import catimage from './assets/istockphoto-1311993425-612x612.jpg'
 import grumpletitle from './assets/grumpletitle.png'
+import grumple_adfull from './assets/grumple_adfull.png'
+import grumple_ad_1 from './assets/grumple_ad_1.png'
 
 function App() {
   const prefersDarkMode = window.matchMedia(
@@ -259,6 +261,24 @@ function App() {
 
       <div className="pt-2 px-1 pb-8 md:max-w-7xl w-full mx-auto sm:px-6 lg:px-8 flex flex-col grow">
         <div className="pb-6 grow">
+          <img
+            src={grumple_ad_1}
+            style={{
+              width: '10%',
+              position: 'absolute',
+              top: '30vh',
+              left: '20vw',
+            }}
+          />
+          <img
+            src={grumple_ad_1}
+            style={{
+              width: '10%',
+              position: 'absolute',
+              top: '30vh',
+              right: '20vw',
+            }}
+          />
           <Grid
             guesses={guesses}
             currentGuess={currentGuess}
