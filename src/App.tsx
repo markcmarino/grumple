@@ -274,7 +274,7 @@ function App() {
             src={grumple_ad_1}
             style={{
               width: '10%',
-              position: 'absolute',
+              position: 'relative',
               top: '30vh',
               right: '20vw',
             }}
