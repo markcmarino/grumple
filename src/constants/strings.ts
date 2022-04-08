@@ -17,11 +17,11 @@ export const NOT_CONTAINED_MESSAGE = (letter: string) =>
   `Guess must contain ${letter}`
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
-export const STATISTICS_TITLE = ['OUTCOME: You win', 'OUTCOME: You lost', 'OUTCOME: You\'re confused', 'OUTCOME: You Win in error: NO SUCCESS', 'OUTCOME: This is NOT a game', 'OUTCOME: What gives?', 'OUTCOME: Letter Tax', 'OUTCOME: Lost Ticket', 'OUTCOME: Regret']
+export const STATISTICS_TITLE = ['OUTCOME: You win', 'OUTCOME: You lost', 'OUTCOME: You could use a Coke!', 'OUTCOME: You Win in error: NO SUCCESS', 'OUTCOME: Your FIT is not LIT.', 'OUTCOME: Unfashionable', 'OUTCOME: Distress', 'OUTCOME: Makeover Time!']
 export const GUESS_DISTRIBUTION_TEXT = 'Power-AID Bars'
 export const NEW_WORD_TEXT = 'New Grumple in'
 export const SHARE_TEXT = 'Share'
-export const TOTAL_TRIES_TEXT = 'Total tries'
+export const TOTAL_TRIES_TEXT = 'Fashion Fowls'
 export const SUCCESS_RATE_TEXT = 'Penalty'
-export const CURRENT_STREAK_TEXT = 'Stumbles'
+export const CURRENT_STREAK_TEXT = 'Faux Pas'
 export const BEST_STREAK_TEXT = 'Questions'
