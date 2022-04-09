@@ -264,7 +264,7 @@ function App() {
           <img
             src={grumple_adfull}
             style={{
-              width: '10%',
+              width: '11%',
               position: 'relative',
               top: '30vh',
               left: '20vw',
@@ -273,7 +273,7 @@ function App() {
           <img
             src={grumple_ad_1}
             style={{
-              width: '10%',
+              width: '11%',
               position: 'relative',
               top: '30vh',
               right: '20vw',
