@@ -266,7 +266,7 @@ function App() {
             alt=""
             style={{
               width: '10%',
-              position: 'relative',
+              position: 'absolute',
               top: '30vh',
               left: '20vw',
             }}
@@ -276,7 +276,7 @@ function App() {
             alt=""
             style={{
               width: '10%',
-              position: 'relative',
+              position: 'absolute',
               top: '30vh',
               right: '20vw',
             }}
