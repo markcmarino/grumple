@@ -39,7 +39,6 @@ import './App.css'
 import { AlertContainer } from './components/alerts/AlertContainer'
 import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/navbar/Navbar'
-import catimage from './assets/istockphoto-1311993425-612x612.jpg'
 import grumpletitle from './assets/grumpletitle.png'
 import grumple_adfull from './assets/grumple_adfull.png'
 import grumple_ad_1 from './assets/grumple_ad_1.png'
@@ -253,6 +252,7 @@ function App() {
       />
       <img
         src={grumpletitle}
+        alt=""
         style={{
           width: '50%',
           alignSelf: 'center',
@@ -263,8 +263,9 @@ function App() {
         <div className="pb-6 grow">
           <img
             src={grumple_adfull}
+            alt=""
             style={{
-              width: '11%',
+              width: '10%',
               position: 'relative',
               top: '30vh',
               left: '20vw',
@@ -272,8 +273,9 @@ function App() {
           />
           <img
             src={grumple_ad_1}
+            alt=""
             style={{
-              width: '11%',
+              width: '10%',
               position: 'relative',
               top: '30vh',
               right: '20vw',
