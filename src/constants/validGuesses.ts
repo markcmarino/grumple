@@ -4702,6 +4702,7 @@ export const VALID_GUESSES = [
   'guard',
   'guars',
   'guava',
+  'gucci',
   'gucks',
   'gucky',
   'gudes',

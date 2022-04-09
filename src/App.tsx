@@ -262,10 +262,10 @@ function App() {
       <div className="pt-2 px-1 pb-8 md:max-w-7xl w-full mx-auto sm:px-6 lg:px-8 flex flex-col grow">
         <div className="pb-6 grow">
           <img
-            src={grumple_ad_1}
+            src={grumple_adfull}
             style={{
               width: '10%',
-              position: 'absolute',
+              position: 'relative',
               top: '30vh',
               left: '20vw',
             }}
