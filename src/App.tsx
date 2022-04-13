@@ -42,6 +42,7 @@ import { Navbar } from './components/navbar/Navbar'
 import grumpletitle from './assets/grumpletitle.png'
 import grumple_adfull from './assets/grumple_adfull.png'
 import grumple_ad_1 from './assets/grumple_ad_1.png'
+import grumple_adbets from './assets/grumple_adbets.png'
 
 function App() {
   const prefersDarkMode = window.matchMedia(
@@ -272,7 +273,7 @@ function App() {
             }}
           />
           <img
-            src={grumple_ad_1}
+            src={grumple_adbets}
             alt=""
             style={{
               width: '10%',
