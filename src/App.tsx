@@ -41,7 +41,6 @@ import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/navbar/Navbar'
 import grumpletitle from './assets/grumpletitle.png'
 import grumple_adfull from './assets/grumple_adfull.png'
-import grumple_ad_1 from './assets/grumple_ad_1.png'
 import grumple_adbets from './assets/grumple_adbets.png'
 
 function App() {
@@ -264,7 +263,7 @@ function App() {
         <div className="pb-6 grow">
           <img
             src={grumple_adfull}
-            alt=""
+            alt="ads for grumple-related services"
             style={{
               width: '10%',
               position: 'absolute',
@@ -274,7 +273,7 @@ function App() {
           />
           <img
             src={grumple_adbets}
-            alt=""
+            alt="ads for bets"
             style={{
               width: '10%',
               position: 'absolute',
